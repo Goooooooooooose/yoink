@@ -116,7 +116,7 @@ bot.on('message', message => {
         }
       ]
     };
-    channel.send({ embed });
+    message.channel.send({ embed });
 
   }
   
